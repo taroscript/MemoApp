@@ -27,9 +27,9 @@ export default function App() {
       <Stack.Navigator
         initialRouteName="LogIn"
         screenOptions={{
-          headerStyle: { backgroundColor: '#467FD3' },
+          headerStyle: { backgroundColor: '#C648C9' },
           headerTitleStyle: { color: '#ffffff' },
-          headerTitle: 'Memo App',
+          headerTitle: 'Magic Memo',
           headerTintColor: '#ffffff',
           headerBackTitle: 'Back',
           cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
