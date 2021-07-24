@@ -19,7 +19,7 @@ export default function MemoListItem(props) {
     const { currentUser } = firebase.auth();
     if (currentUser) {
       const db = firebase.firestore();
-      const ref = db.collection(`user/${currentUser.uid}/memos`).doc(id);
+      const ref = db.collection(`users/${currentUser.uid}/memos`).doc(id);
       Alert.alert('メモを削除します', 'よろしいですか？', [
         {
           text: 'キャンセル',
