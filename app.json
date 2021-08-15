@@ -2,7 +2,7 @@
   "expo": {
     "name": "MagicMemo",
     "slug": "MagicMemo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "privacy":"unlisted",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "work.harihari.www",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.1"
     },
     "android": {
       "package": "work.harihari.www",
